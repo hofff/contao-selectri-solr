@@ -1,0 +1,33 @@
+{
+	"name" : "hofff/contao-selectri-solr",
+	"description" : "Solr integration for hofff/contao-selectri",
+	"keywords" : [
+		"widget",
+		"select",
+		"tree",
+		"solr",
+		"search",
+		"contao"
+	],
+	"type" : "contao-module",
+	"license" : "LGPL-3.0+",
+	"authors" : [{
+			"name" : "Oliver Hoff",
+			"email" : "oliver@hofff.com",
+			"homepage" : "https://hofff.com/",
+			"role" : "Developer"
+		}
+	],
+	"require" : {
+		"php" : ">=5.4",
+		"contao/core" : "~3.2",
+		"hofff/contao-selectri" : "~3.0"
+	},
+	"extra" : {
+		"contao" : {
+			"symlinks" : {
+				"contao-module" : "system/modules/hofff_selectri_solr"
+			}
+		}
+	}
+}
