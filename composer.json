@@ -23,6 +23,11 @@
 		"contao/core" : "~3.2",
 		"hofff/contao-selectri" : "~3.0"
 	},
+	"autoload" : {
+		"psr-0" : {
+			"Hofff" : "src"
+		}
+	},
 	"extra" : {
 		"contao" : {
 			"symlinks" : {
