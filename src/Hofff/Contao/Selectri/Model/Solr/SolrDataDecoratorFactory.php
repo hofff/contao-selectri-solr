@@ -73,8 +73,10 @@ class SolrDataDecoratorFactory implements DataFactory {
 			$content = json_decode($content, true);
 
 			$keys = array();
-			foreach($content['response']['docs'] as $document) {
-				$keys[] = $document[$field];
+			if(isset($content['response']['docs'])) {
+				foreach($content['response']['docs'] as $document) {
+					$keys[] = $document[$field];
+				}
 			}
 
 			return array_unique($keys);
