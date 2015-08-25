@@ -1,0 +1,1 @@
+# contao-selectri-solr
