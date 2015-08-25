@@ -45,6 +45,13 @@ class SolrDataDecoratorFactory implements DataFactory {
 	}
 
 	/**
+	 * @return SolrDataConfig
+	 */
+	public function getConfig() {
+		return $this->config;
+	}
+
+	/**
 	 * @param DataFactory $factory
 	 * @return void
 	 */
