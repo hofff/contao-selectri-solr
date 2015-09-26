@@ -21,7 +21,7 @@
 	"require" : {
 		"php" : ">=5.4",
 		"contao/core" : "~3.2",
-		"hofff/contao-selectri" : "~3.0",
+		"hofff/contao-selectri" : "~3.1",
 		"hofff/contao-solr" : "~2.0"
 	},
 	"autoload" : {
